@@ -19,12 +19,12 @@ ul.nav {
     top: 0;
 }
 
+/* ---------------------- progress bar ----------------------- */
+
 .progress {
     position: sticky;
     top: 0;
 }
-
-/* -------------------------------------- */
 
 .progress {
     animation-timeline: scroll();
@@ -58,6 +58,8 @@ li a {
     background-size: cover;
     min-height: 500px;
 } */
+
+/* ---------------------- boutonn "Abonnez-vous" ----------------------- */
 
 #abo {
     width: 9rem;
