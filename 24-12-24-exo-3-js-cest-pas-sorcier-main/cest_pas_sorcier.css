@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+}
+
+.progress {
+    position: sticky;
+    top: 0;
+}
+
+/* -------------------------------------- */
+
+.progress {
+    animation-timeline: scroll();
+  }
+
+@keyframes scaleProgress {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+}
+    
+/* -------------------------------------- */
+
+li a {
+    color: turquoise !important; 
+    /* text-decoration: none; */
+}
+
+.bg-turquoise {
+    background-color: aqua !important;
+}
+
+/* .form-commande {
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banniere2.jpg) center center no-repeat
+    ;
+    background-size: cover;
+    min-height: 500px;
+} */
+
+#abo {
+    width: 9rem;
+    height: 2.5em;
+    font-size: 0.9em;
+    color: palevioletred;
+}
+
+.form-check-input {
+    /* color: aqua !important; */
+    background-color: aqua !important;
+}
+
+.bg-bleuFonce {
+    background: url("./images/Background_dark.jpg");
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .bg-primary {
+    background: url("./images/Background_dark.jpg");
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.imggg {
+    /* background: url("./images/1.jpg"); */
+    height: 60vh;
+    width: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.btntbn {
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    
+}
+
+.carousel {
+    width: 400px;
+    height: 300px;
+    transform: rotate(-10deg);
+    border: 10px solid white;
+    border-radius: 10px;
+    /* object-fit: contain; */
+    
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    width: 400px;
+    height: 280px;
+    /* object-fit: contain; */
+
+}
+
+.page-link {
+    color: white !important;
+}
+
+ul.pagination {
+    border: none;
+}
+.page-item, .page-link {
+    border: none;
+}
+
+
+body {
+    /* padding: 25px; */
+    background-color: white;
+    color: black;
+    /* font-size: 25px; */
+  }
+  
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+  /* .bg-dark {
+    background-color: black;
+    color: white;
+  }
+  .bg-success {
+    background-color: green;
+    color: white;
+  } */
+
+  .bg-dark {
+    background-color: black;
+    color: white;
+  }
+  .bg-success {
+    background-color: green;
+    color: white;
+  }
+
+
